@@ -8,7 +8,7 @@ module.exports = {
     ],
   },
   output: {
-    path: path.resolve(__dirname, 'build'),
+    path: path.join(__dirname, 'dist'),
     filename: 'app.bundle.js',
     publicPath: '/static/'
   },
